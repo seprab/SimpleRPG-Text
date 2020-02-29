@@ -1,16 +1,19 @@
+#pragma region Librerias incluidas en el compilador
 #include <algorithm>
 #include <iostream>
 #include <fstream>
 #include <utility>
 #include <cstdlib>
 #include <string>
-#include <vector>
-#include <ctime>
-#include <list>
-#include <map>
-
+#include <vector>  //Vectores
+#include <ctime>	
+#include <list>	//Listas
+#include <map>  //Diccionarios <llave,valor>
+#pragma endregion
+#pragma region Librerias usada para la lectura de JSON
 #include "JsonBox.h"
-
+#pragma endregion
+#pragma region Declaraciones propias del programa
 #include "Item.h"
 #include "Weapon.h"
 #include "Armor.h"
@@ -22,14 +25,13 @@
 #include "Door.h"
 #include "Battle.h"
 #include "EntityManager.h"
+#pragma endregion
 
 
 #define MAX_PLAYER_NAME_SIZE 14
 
 Player StartGame();
-
 void DialogueMenu(Player& player);
-
 EntityManager entityManager;
 
 int main(int argc, char* argv[])
@@ -125,7 +127,6 @@ int main(int argc, char* argv[])
 
 	return 0;
 }
-
 Player StartGame()
 {
 	std::cout << "What's your name?" << std::endl;
@@ -162,7 +163,6 @@ Player StartGame()
 		}
 	}
 }
-
 void DialogueMenu(Player& player)
 {
 	int result = Dialogue("Menu\n====", { "Items", "Equipment", "Character" }).Activate();

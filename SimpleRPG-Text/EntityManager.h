@@ -8,21 +8,18 @@
 
 class EntityManager
 {
-private:
-	std::map<std::string, Entity*> data;
+	private:
+		std::map<std::string, Entity*> data;
 
-public:
-	EntityManager();
-	~EntityManager();
+	public:
+		EntityManager();
+		~EntityManager();
 
-	template <typename T>
-	void LoadJSON(std::string fileName);
+		template <typename T> void LoadJSON(std::string fileName);
 
-	template <typename T>
-	T* GetEntity(std::string id);
+		template <typename T> T* GetEntity(std::string id);
 };
 
-template <typename T>
-std::string EntityToString();
+template <typename T> std::string EntityToString();
 
 #endif

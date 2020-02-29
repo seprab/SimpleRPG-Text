@@ -1,0 +1,28 @@
+{
+	"area_01" : {
+		"doors" : [
+			[
+				"door_01_02",
+				-1
+			]
+		],
+		"inventory" : {
+			"armor" : [],
+			"items" : [],
+			"weapons" : []
+		}
+	},
+	"area_02" : {
+		"doors" : [
+			[
+				"door_01_02",
+				-1
+			]
+		],
+		"inventory" : {
+			"armor" : [],
+			"items" : [],
+			"weapons" : []
+		}
+	}
+}

@@ -26,18 +26,42 @@
       <Filter>JsonBox</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="EntityManager.cpp" />
-    <ClCompile Include="Item.cpp" />
-    <ClCompile Include="Entity.cpp" />
-    <ClCompile Include="Armor.cpp" />
-    <ClCompile Include="Weapon.cpp" />
-    <ClCompile Include="Inventory.cpp" />
-    <ClCompile Include="Dialogue.cpp" />
-    <ClCompile Include="Area.cpp" />
-    <ClCompile Include="Door.cpp" />
-    <ClCompile Include="Creature.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Battle.cpp" />
+    <ClCompile Include="Area.cpp">
+      <Filter>ClassImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>ClassImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>ClassImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>ClassImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue.cpp">
+      <Filter>ClassImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>ClassImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>ClassImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>ClassImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>ClassImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>ClassImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ClassImplementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>ClassImplementations</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="JsonBox\Array.h">
@@ -76,19 +100,45 @@
     <ClInclude Include="JsonBox\Value.h">
       <Filter>JsonBox</Filter>
     </ClInclude>
-    <ClInclude Include="JsonBox.h" />
-    <ClInclude Include="Entity.h" />
-    <ClInclude Include="EntityManager.h" />
-    <ClInclude Include="Item.h" />
-    <ClInclude Include="Armor.h" />
-    <ClInclude Include="Weapon.h" />
-    <ClInclude Include="Inventory.h" />
-    <ClInclude Include="Dialogue.h" />
-    <ClInclude Include="Area.h" />
-    <ClInclude Include="Door.h" />
-    <ClInclude Include="Creature.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Battle.h" />
+    <ClInclude Include="Area.h">
+      <Filter>ClassDeclarations</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>ClassDeclarations</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>ClassDeclarations</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>ClassDeclarations</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue.h">
+      <Filter>ClassDeclarations</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>ClassDeclarations</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>ClassDeclarations</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>ClassDeclarations</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>ClassDeclarations</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>ClassDeclarations</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonBox.h">
+      <Filter>ClassDeclarations</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ClassDeclarations</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>ClassDeclarations</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="JsonBox">
@@ -96,6 +146,12 @@
     </Filter>
     <Filter Include="JsonData">
       <UniqueIdentifier>{9d370f46-f2e7-4559-88f7-bbce8bbb099c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassDeclarations">
+      <UniqueIdentifier>{c85e5151-2b5f-4928-b3cf-ceb3251f3f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClassImplementations">
+      <UniqueIdentifier>{81c66b59-649f-4093-99d0-e45c1b415c0e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
