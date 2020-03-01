@@ -137,7 +137,7 @@ Player StartGame()
 	if (f.good())
 	{
 		f.close();
-
+		std::cout << "Game found, loading your game!" << std::endl;
 		JsonBox::Value saveData;
 		JsonBox::Value areaData;
 		saveData.loadFromFile(name + ".json");
